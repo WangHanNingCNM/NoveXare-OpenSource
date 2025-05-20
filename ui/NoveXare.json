@@ -1,0 +1,252 @@
+{
+    "type": "Menu",
+    "title": {
+        "name": "『NoveXare』",
+        "size": 12,
+        "elevation": 3,
+        "background": "$menu_title_background_color",
+        "padding": [
+            5,
+            4,
+            5,
+            4
+        ],
+        "colors": [
+            "$menu_title_gradient_text_begin_color",
+            "$menu_title_gradient_text_end_color"
+        ]
+    },
+    "color": "$menu_color",
+    "alpha": 0.9,
+    "can_close": true,
+    "show_dividers": false,
+    "hide_fun": true,
+    "hide": true,
+    "image": "背景/白天_次要.png",
+    "items": [
+        {
+            "type": "TextView",
+            "name": "加载NoveXare",
+            "size": 11,
+            "color": "$menu_item_color",
+            "load_script": "NoveXare.js",
+            "tag": "extra_nove_xare",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ],
+            "items": [
+                {
+                    "type": "TextView",
+                    "name": "退出脚本",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "key": "exit",
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "TextView",
+                    "key": "save_config",
+                    "name": "保存配置",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "TextView",
+                    "key": "load_config",
+                    "name": "加载配置",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "TextView",
+                    "key": "SearchModule",
+                    "name": "搜索功能",
+                    "color": "$menu_item_color",
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "size": 11
+                },
+                {
+                    "type": "Switch",
+                    "key": "PauseNX",
+                    "name": "暂停NoveXare",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "Switch",
+                    "key": "TestModule",
+                    "name": "测试功能",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "Switch",
+                    "key": "IQBoost",
+                    "name": "IQBoost",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "Switch",
+                    "key": "RandomFunc",
+                    "name": "随机功能",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "攻击类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/战斗类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "移动类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/移动类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "玩家类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/玩家类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "事件类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/事件类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "娱乐类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/娱乐类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "辅助类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/辅助类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "渲染类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/渲染类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "type": "TextView",
+            "name": "配置类",
+            "color": "$menu_item_color",
+            "size": 12,
+            "open": "NoveXare/配置类",
+            "padding": [
+                5,
+                5,
+                5,
+                5
+            ]
+        }
+    ]
+}
