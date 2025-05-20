@@ -13,7 +13,7 @@ try {
     }
     const version = Version();
     curl_get("http://w.t3yanzheng.com/NXVersion", {}, function(code, msg) {
-        clientMessage('§e§l[NoveXare] §r§7>>>§r 版本号 §7>>>§r NX版本:NoveXare - §u2025§e05§b20§f215015§bC§dr§ca§ac§ek§7' + msg + ' §fVersion， 跑路版本: ' + version);
+        clientMessage('§e§l[NoveXare] §r§7>>>§r 版本号 §7>>>§r NX版本:NoveXare - §u2025§e05§b20§f215015§bOpenSource§7' + msg + ' §fVersion， 跑路版本: ' + version);
     });
 
     curl_get("http://w.t3yanzheng.com/NXAnnou", {}, function(code, msg) {
