@@ -102,6 +102,7 @@
                         5
                     ]
                 },
+                
                 {
                     "type": "Switch",
                     "key": "NoWeather",
@@ -284,6 +285,79 @@
                             "size": 10
                         }
                     ]
+                },
+                {
+                    "type": "Switch",
+                    "key": "DirectRender",
+                    "name": "显示方向",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "dr_move",
+                    "name": "移动方向",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "dr_rot",
+                    "name": "视角方向",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "dr_num",
+                    "format": "粒子数量: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 3,
+                    "min": 1,
+                    "max": 10
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "dr_space",
+                    "format": "粒子间隔: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 3,
+                    "min": 1,
+                    "max": 10
                 },
                 {
                     "type": "Switch",
@@ -533,6 +607,32 @@
                     "name": "弹幕通知",
                     "color": "$menu_item_color",
                     "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "bn_gradual",
+                    "name": "渐变弹幕",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "bn_rainbow",
+                    "name": "彩色弹幕",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
                     "padding": [
                         5,
                         5,
@@ -1358,6 +1458,22 @@
                     "max": 25
                 },
                 {
+                    "type": "SeekBar",
+                    "key": "mt_speed",
+                    "format": "时间流速: %dtick/秒",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 20,
+                    "min": 1,
+                    "max": 1000
+                },
+                {
                     "type": "Switch",
                     "key": "Derp",
                     "name": "玩家旋转",
@@ -1926,6 +2042,19 @@
                     "size": 12
                 },
                 {
+                    "type": "TextView",
+                    "key": "th_head",
+                    "name": "编辑头文字",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
                     "type": "CheckBox",
                     "key": "th_dist",
                     "name": "距离",
@@ -2014,7 +2143,7 @@
                             "size": 10
                         },
                         {
-                            "key": "❤x",
+                            "key": "Count",
                             "name": "红心x数量",
                             "color": "$menu_item_child_color",
                             "size": 10
@@ -2022,6 +2151,12 @@
                         {
                             "key": "Primary",
                             "name": "原始血量",
+                            "color": "$menu_item_child_color",
+                            "size": 10
+                        },
+                        {
+                            "key": "Progress",
+                            "name": "进度条",
                             "color": "$menu_item_child_color",
                             "size": 10
                         }
@@ -2143,6 +2278,22 @@
                     "value": 100,
                     "min": 0,
                     "max": 100
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "th_size",
+                    "format": "缩放倍数: %.2f倍",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 1.00,
+                    "min": 0.10,
+                    "max": 3.00
                 },
                 {
                     "type": "Switch",
@@ -2355,7 +2506,7 @@
                     "size": 10,
                     "items": [
                         {
-                            "key": "percentage",
+                            "key": "Percentage",
                             "name": "百分比",
                             "color": "$menu_item_child_color",
                             "size": 10
@@ -2367,14 +2518,20 @@
                             "size": 10
                         },
                         {
-                            "key": "❤x",
+                            "key": "Count",
                             "name": "红心x数量",
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
                         {
-                            "key": "primary_data",
+                            "key": "Primary",
                             "name": "原始血量",
+                            "color": "$menu_item_child_color",
+                            "size": 10
+                        },
+                        {
+                            "key": "Progress",
+                            "name": "进度条",
                             "color": "$menu_item_child_color",
                             "size": 10
                         }

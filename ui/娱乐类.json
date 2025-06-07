@@ -132,19 +132,6 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "InteractAura",
-                    "name": "交互光环",
-                    "color": "$menu_item_color",
-                    "size": 11,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
-                },
-                {
-                    "type": "Switch",
                     "key": "FlashBack",
                     "name": "自我崩溃",
                     "color": "$menu_item_color",
@@ -186,19 +173,6 @@
                     "type": "Switch",
                     "key": "PVPDaLao",
                     "name": "PVP大佬",
-                    "color": "$menu_item_color",
-                    "size": 11,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
-                },
-                {
-                    "type": "Switch",
-                    "key": "FarmAura",
-                    "name": "种地光环",
                     "color": "$menu_item_color",
                     "size": 11,
                     "padding": [
@@ -314,6 +288,35 @@
                     "value": 1,
                     "min": 1,
                     "max": 128
+                },
+                {
+                    "type": "Switch",
+                    "key": "FarmAura",
+                    "name": "种地光环",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "fa_range",
+                    "format": "大小: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 3,
+                    "min": 1,
+                    "max": 5
                 },
                 {
                     "type": "Switch",

@@ -360,8 +360,8 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "BypassMute",
-                    "name": "绕过禁言",
+                    "key": "ReplaceMsg",
+                    "name": "替换发言",
                     "color": "$menu_item_color",
                     "size": 11
                 },
@@ -805,6 +805,12 @@
                         {
                             "key": "Packet",
                             "name": "玩家授权认证",
+                            "color": "$menu_item_child_color",
+                            "size": 10
+                        },
+                        {
+                            "key": "Move",
+                            "name": "移动玩家",
                             "color": "$menu_item_child_color",
                             "size": 10
                         }
@@ -1673,6 +1679,18 @@
                         {
                             "key": "Attack",
                             "name": "攻击",
+                            "color": "$menu_item_child_color",
+                            "size": 10
+                        },
+                        {
+                            "key": "AuthPacket",
+                            "name": "玩家授权认证",
+                            "color": "$menu_item_child_color",
+                            "size": 10
+                        },
+                        {
+                            "key": "PlayerAction",
+                            "name": "玩家行为",
                             "color": "$menu_item_child_color",
                             "size": 10
                         }

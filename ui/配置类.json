@@ -76,6 +76,12 @@
                             "name": "屏幕文本",
                             "color": "$menu_item_child_color",
                             "size": 10
+                        },
+                        {
+                            "key": "Line",
+                            "name": "并列文本",
+                            "color": "$menu_item_child_color",
+                            "size": 10
                         }
                     ]
                 },
@@ -174,6 +180,22 @@
                     "value": 100,
                     "min": 0,
                     "max": 100
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "tip_size",
+                    "format": "缩放倍数: %.2f倍",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 1.00,
+                    "min": 0.10,
+                    "max": 3.00
                 },
                 {
                     "type": "Switch",

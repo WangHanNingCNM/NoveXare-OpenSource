@@ -185,10 +185,10 @@
         },
         {
             "type": "TextView",
-            "name": "事件类",
+            "name": "开发类",
             "color": "$menu_item_color",
             "size": 12,
-            "open": "NoveXare/事件类",
+            "open": "NoveXare/开发类",
             "padding": [
                 5,
                 5,

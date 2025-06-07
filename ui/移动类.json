@@ -1247,6 +1247,32 @@
                     ]
                 },
                 {
+                    "type": "CheckBox",
+                    "key": "aj_continue",
+                    "name": "连续跳跃",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "aj_modify",
+                    "name": "修改速度",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
                     "type": "SeekBar",
                     "key": "aj_speed",
                     "format": "速度: %d",

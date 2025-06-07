@@ -569,7 +569,13 @@
                         },
                         {
                             "key": "Packet",
-                            "name": "发包",
+                            "name": "玩家授权认证",
+                            "color": "$menu_item_child_color",
+                            "size": 10
+                        },
+                        {
+                            "key": "Move",
+                            "name": "移动玩家",
                             "color": "$menu_item_child_color",
                             "size": 10
                         }
@@ -1503,6 +1509,93 @@
                     "value": 5,
                     "min": 1,
                     "max": 15
+                },
+                {
+                    "type": "Switch",
+                    "key": "AntiAim",
+                    "name": "反瞄准",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "aaim_rot",
+                    "name": "判断视角",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "aaim_dist",
+                    "format": "最小距离: %d格",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 3,
+                    "min": 1,
+                    "max": 7
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "aaim_fov",
+                    "format": "最小视角: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 30,
+                    "min": 1,
+                    "max": 270
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "aaim_hurt",
+                    "name": "判断受伤",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "aaim_speed",
+                    "format": "躲避距离: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 5,
+                    "min": 0,
+                    "max": 10
                 },
                 {
                     "type": "Switch",

@@ -39,6 +39,19 @@
             "items": [
                 {
                     "type": "Switch",
+                    "key": "InteractAura",
+                    "name": "交互光环",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "Switch",
                     "key": "FakeWater",
                     "name": "假水",
                     "color": "$menu_item_color",
@@ -1316,8 +1329,7 @@
                             "name": "取物黑名单模式",
                             "color": "$menu_item_child_color",
                             "size": 10
-                        }
-                        ,
+                        },
                         {
                             "key": "InterceptWhite",
                             "name": "取物白名单模式",
