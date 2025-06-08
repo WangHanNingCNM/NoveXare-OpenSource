@@ -703,6 +703,7 @@
                             "key": "Helmet",
                             "name": "头盔",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -777,6 +778,7 @@
                             "key": "ProtoHax",
                             "name": "ProtoHax",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {

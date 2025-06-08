@@ -52,13 +52,6 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "FakeWater",
-                    "name": "假水",
-                    "color": "$menu_item_color",
-                    "size": 11
-                },
-                {
-                    "type": "Switch",
                     "key": "Suspend",
                     "name": "悬浮",
                     "color": "$menu_item_color",
@@ -144,6 +137,20 @@
                     ]
                 },
                 {
+                    "type": "CheckBox",
+                    "key": "mine_info",
+                    "name": "显示进度",
+                    "checked": true,
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
                     "type": "TextView",
                     "key": "mine_white",
                     "name": "挖掘列表",
@@ -183,7 +190,7 @@
                     ],
                     "value": 5,
                     "min": 1,
-                    "max": 30
+                    "max": 100
                 },
                 {
                     "type": "SeekBar",
@@ -197,9 +204,9 @@
                         5,
                         5
                     ],
-                    "value": 20,
+                    "value": 500,
                     "min": 1,
-                    "max": 256
+                    "max": 99999
                 },
                 {
                     "type": "SeekBar",
@@ -258,6 +265,7 @@
                             "key": "Hotbar",
                             "name": "快捷栏",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -924,43 +932,6 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "Tower",
-                    "name": "自动上搭",
-                    "color": "$menu_item_color",
-                    "size": 11
-                },
-                {
-                    "type": "CheckBox",
-                    "key": "tower_continuously",
-                    "name": "连续跳跃",
-                    "color": "$menu_item_child_color",
-                    "checked": true,
-                    "size": 10,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
-                },
-                {
-                    "type": "SeekBar",
-                    "key": "tower_delay",
-                    "format": "放置延迟: %dTick",
-                    "color": "$menu_item_child_color",
-                    "size": 10,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ],
-                    "value": 10,
-                    "min": 1,
-                    "max": 80
-                },
-                {
-                    "type": "Switch",
                     "key": "Scaffold",
                     "name": "自动搭路",
                     "color": "$menu_item_color",
@@ -976,6 +947,19 @@
                         "on": "NoveXare/Scaffold_on.png",
                         "icon": "NoveXare/Scaffold_on.png"
                     }
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sca_keep",
+                    "name": "保持Y轴",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
                 },
                 {
                     "type": "SeekBar",
@@ -995,8 +979,37 @@
                 },
                 {
                     "type": "CheckBox",
+                    "key": "sca_tower",
+                    "name": "塔搭模式",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "sca_space",
+                    "format": "跳跃间隔: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 10,
+                    "min": 1,
+                    "max": 40
+                },
+                {
+                    "type": "CheckBox",
                     "key": "sca_acc",
-                    "name": "使用精准角度",
+                    "name": "放置精准角度",
                     "color": "$menu_item_child_color",
                     "size": 10,
                     "padding": [
@@ -1024,21 +1037,8 @@
                 },
                 {
                     "type": "CheckBox",
-                    "key": "sca_keep",
-                    "name": "保持Y轴",
-                    "color": "$menu_item_child_color",
-                    "size": 10,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
-                },
-                {
-                    "type": "CheckBox",
                     "key": "sca_count",
-                    "name": "显示方块数量",
+                    "name": "显示方块",
                     "color": "$menu_item_child_color",
                     "size": 10,
                     "padding": [
@@ -1051,7 +1051,7 @@
                 {
                     "type": "CheckBox",
                     "key": "sca_clickRot",
-                    "name": "点击转头",
+                    "name": "放置转头",
                     "color": "$menu_item_child_color",
                     "size": 10,
                     "padding": [
@@ -1224,6 +1224,7 @@
                             "key": "Drop",
                             "name": "丢弃",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1316,6 +1317,7 @@
                             "key": "Drop",
                             "name": "丢弃模式",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1423,6 +1425,7 @@
                             "key": "Hub",
                             "name": "退出",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1720,7 +1723,7 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "CPvP",
+                    "key": "AutoTrap",
                     "name": "粽子",
                     "color": "$menu_item_color",
                     "size": 11
@@ -1736,6 +1739,7 @@
                             "key": "Destroy",
                             "name": "破坏",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1826,7 +1830,7 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "AutoBomb",
+                    "key": "AutoAnchor",
                     "name": "自动重生锚",
                     "color": "$menu_item_color",
                     "size": 11
@@ -1848,9 +1852,38 @@
                     "max": 40
                 },
                 {
+                    "type": "SeekBar",
+                    "key": "ab_offset",
+                    "format": "高度偏移: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 0,
+                    "min": -3,
+                    "max": 3
+                },
+                {
                     "type": "CheckBox",
                     "key": "ab_auto",
                     "name": "自动选择",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "ab_click",
+                    "name": "自动点炸",
                     "color": "$menu_item_child_color",
                     "size": 10,
                     "padding": [
@@ -1878,6 +1911,7 @@
                             "key": "Motion",
                             "name": "移动值",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {

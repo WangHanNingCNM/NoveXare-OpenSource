@@ -1090,6 +1090,7 @@
                     "items": [
                         {
                             "key": "String",
+                            "checked": true,
                             "name": "字符串",
                             "color": "$menu_item_child_color",
                             "size": 10

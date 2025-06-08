@@ -52,19 +52,6 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "SmartWeapon",
-                    "name": "智能武器",
-                    "color": "$menu_item_color",
-                    "size": 11,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
-                },
-                {
-                    "type": "Switch",
                     "key": "AvoidInvalid",
                     "name": "空刀不挥手",
                     "color": "$menu_item_color",
@@ -82,6 +69,83 @@
                     "name": "刀刀暴击",
                     "color": "$menu_item_color",
                     "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "Switch",
+                    "key": "SmartWeapon",
+                    "name": "智能武器",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "RadioGroup",
+                    "key": "sw_mode",
+                    "name": "选择范围",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "items": [
+                        {
+                            "key": "Hotbar",
+                            "name": "快捷栏",
+                            "color": "$menu_item_child_color",
+                            "checked": true,
+                            "size": 10
+                        },
+                        {
+                            "key": "Inventory",
+                            "name": "物品栏",
+                            "color": "$menu_item_child_color",
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sw_open",
+                    "name": "自动打开背包",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sw_enchant",
+                    "name": "判断附魔",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sw_texture",
+                    "name": "判断材质",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
                     "padding": [
                         5,
                         5,
@@ -174,6 +238,7 @@
                             "key": "Mob",
                             "name": "生物",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -565,6 +630,7 @@
                             "key": "Position",
                             "name": "坐标",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -973,6 +1039,7 @@
                             "key": "Lock",
                             "name": "固定速度",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1268,6 +1335,7 @@
                             "key": "Pos",
                             "name": "坐标",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -2236,6 +2304,7 @@
                             "key": "Move",
                             "name": "移动",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {

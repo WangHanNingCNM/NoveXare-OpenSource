@@ -312,6 +312,7 @@
                             "key": "Motion",
                             "name": "移动值",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -625,6 +626,7 @@
                             "key": "Single",
                             "name": "单向",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -794,6 +796,7 @@
                             "key": "Pos",
                             "name": "坐标",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -912,6 +915,7 @@
                             "key": "Pos",
                             "name": "坐标",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -967,6 +971,7 @@
                             "key": "Smooth",
                             "name": "平滑拉回",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1047,6 +1052,7 @@
                             "key": "SendPacket",
                             "name": "停止发包",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1414,6 +1420,7 @@
                             "key": "Move",
                             "name": "行走",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {
@@ -1462,6 +1469,7 @@
                             "key": "Motion",
                             "name": "移动值",
                             "color": "$menu_item_child_color",
+                            "checked": true,
                             "size": 10
                         },
                         {

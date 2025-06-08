@@ -209,6 +209,7 @@
                         {
                             "key": "Inventory",
                             "name": "背包",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         }
@@ -335,6 +336,7 @@
                         {
                             "key": "Aux",
                             "name": "特殊值",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -375,6 +377,7 @@
                         {
                             "key": "/me",
                             "name": "强调消息",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -633,6 +636,7 @@
                         {
                             "key": "Player",
                             "name": "玩家",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -805,6 +809,7 @@
                         {
                             "key": "Packet",
                             "name": "玩家授权认证",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -982,6 +987,7 @@
                         {
                             "key": "HYT",
                             "name": "花雨庭",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -1041,6 +1047,7 @@
                         {
                             "key": "Tip",
                             "name": "提示",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -1332,6 +1339,7 @@
                         {
                             "key": "All",
                             "name": "停止发包",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -1586,6 +1594,7 @@
                         {
                             "key": "ForEach",
                             "name": "遍历",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -1649,6 +1658,7 @@
                         {
                             "key": "Error-Build",
                             "name": "建造方块",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
@@ -1693,6 +1703,12 @@
                             "name": "玩家行为",
                             "color": "$menu_item_child_color",
                             "size": 10
+                        },
+                        {
+                            "key": "Crash",
+                            "name": "卡服",
+                            "color": "$menu_item_child_color",
+                            "size": 10
                         }
                     ]
                 },
@@ -1708,7 +1724,7 @@
                         5,
                         5
                     ],
-                    "value": 50,
+                    "value": 75,
                     "min": 1,
                     "max": 500
                 },
@@ -1786,6 +1802,20 @@
                     "name": "音效播放器",
                     "color": "$menu_item_color",
                     "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sp_info",
+                    "name": "显示音乐信息",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
                     "padding": [
                         5,
                         5,

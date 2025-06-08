@@ -53,7 +53,7 @@
                 },
                 {
                     "type": "RadioGroup",
-                    "name": "NEX提示类型",
+                    "name": "NX提示类型",
                     "color": "$menu_item_color",
                     "size": 11,
                     "padding": [
@@ -323,7 +323,7 @@
                 {
                     "type": "SeekBar",
                     "key": "setPos_offset",
-                    "format": "坐标Y轴偏移: %.2f ",
+                    "format": "获取坐标偏移: %.2f ",
                     "color": "$menu_item_color",
                     "size": 11,
                     "padding": [
@@ -339,7 +339,7 @@
                 {
                     "type": "SeekBar",
                     "key": "getPos_offset",
-                    "format": "坐标Y轴偏移: %.2f ",
+                    "format": "设置坐标偏移: %.2f ",
                     "color": "$menu_item_color",
                     "size": 11,
                     "padding": [
@@ -411,6 +411,7 @@
                         {
                             "key": "Client",
                             "name": "客户端消息",
+                            "checked": true,
                             "color": "$menu_item_child_color",
                             "size": 10
                         },
