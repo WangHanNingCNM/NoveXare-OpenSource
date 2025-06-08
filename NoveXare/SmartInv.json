@@ -1,5 +1,6 @@
 {
     "move_armor_slot": -1,
+    "drop_slot": -1,
     "SmartInvCfg": {
         "sword": 0,
         "helmet": 5,
