@@ -996,6 +996,19 @@
                     ]
                 },
                 {
+                    "type": "CheckBox",
+                    "key": "ap_random_slope",
+                    "name": "随机斜率",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
                     "type": "SeekBar",
                     "key": "ap_sb_dist",
                     "format": "距离: %d",
@@ -1026,6 +1039,22 @@
                     "value": 10,
                     "min": 1,
                     "max": 20
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "ap_sb_slope",
+                    "format": "斜率: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 15,
+                    "min": 0,
+                    "max": 30
                 },
                 {
                     "type": "SeekBar",
@@ -2275,6 +2304,19 @@
                     "type": "CheckBox",
                     "key": "th_pos",
                     "name": "坐标",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "th_effect",
+                    "name": "药效显示",
                     "color": "$menu_item_child_color",
                     "size": 10,
                     "padding": [

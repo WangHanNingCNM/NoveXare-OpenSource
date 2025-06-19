@@ -38,19 +38,6 @@
             "tag": "extra_nove_xare",
             "items": [
                 {
-                    "type": "TextView",
-                    "key": "BJDTp",
-                    "name": "布吉岛传送",
-                    "color": "$menu_item_color",
-                    "size": 11,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
-                },
-                {
                     "type": "Switch",
                     "key": "BJDEscape",
                     "name": "布吉岛出笼",
@@ -202,6 +189,49 @@
                 },
                 {
                     "type": "TextView",
+                    "key": "ServerTeleport",
+                    "name": "租赁服传送",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "st_offset",
+                    "format": "Y轴偏移: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 2,
+                    "min": -2,
+                    "max": 5
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "st_tp",
+                    "name": "自动传送",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "TextView",
                     "key": "EditY",
                     "name": "修改Y轴",
                     "color": "$menu_item_color",
@@ -339,7 +369,7 @@
                 {
                     "type": "CheckBox",
                     "key": "fm_item",
-                    "name": " 传送掉落物",
+                    "name": "传送掉落物",
                     "color": "$menu_item_child_color",
                     "size": 10,
                     "padding": [

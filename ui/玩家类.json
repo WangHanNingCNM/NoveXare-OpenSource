@@ -248,6 +248,22 @@
                     "max": 100
                 },
                 {
+                    "type": "SeekBar",
+                    "key": "as_level",
+                    "format": "权限等级: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 4,
+                    "min": 1,
+                    "max": 4
+                },
+                {
                     "type": "Switch",
                     "key": "AutoArmor",
                     "name": "自动穿装",

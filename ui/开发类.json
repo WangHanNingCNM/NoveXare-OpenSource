@@ -886,7 +886,7 @@
                 },
                 {
                     "type": "TextView",
-                    "key": "pam_black",
+                    "key": "rpc_black",
                     "name": "全局黑名单",
                     "color": "$menu_item_child_color",
                     "size": 10,
@@ -899,7 +899,7 @@
                 },
                 {
                     "type": "TextView",
-                    "key": "pam_white",
+                    "key": "rpc_white",
                     "name": "全局白名单",
                     "color": "$menu_item_child_color",
                     "size": 10,
