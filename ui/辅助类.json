@@ -104,8 +104,8 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "NightVision",
-                    "name": "夜视",
+                    "key": "AvoidAttack",
+                    "name": "逃逸空间",
                     "color": "$menu_item_color",
                     "size": 11,
                     "padding": [
@@ -117,8 +117,8 @@
                 },
                 {
                     "type": "Switch",
-                    "key": "AvoidAttack",
-                    "name": "逃逸空间",
+                    "key": "SimulateButton",
+                    "name": "按键模拟",
                     "color": "$menu_item_color",
                     "size": 11,
                     "padding": [
@@ -127,6 +127,154 @@
                         5,
                         5
                     ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sb_forward",
+                    "name": "向前",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sb_back",
+                    "name": "向后",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sb_left",
+                    "name": "向左",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sb_right",
+                    "name": "向右",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sb_click",
+                    "name": "放置/攻击",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sb_long",
+                    "name": "破坏/交互",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "sb_interact",
+                    "name": "交互",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "Switch",
+                    "key": "EffEctManager",
+                    "name": "药效管理",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "em_nv",
+                    "name": "夜视",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "checked": true,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "CheckBox",
+                    "key": "em_eff",
+                    "name": "效率",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "em_level",
+                    "format": "等级 %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 1,
+                    "min": 1,
+                    "max": 255
                 },
                 {
                     "type": "Switch",

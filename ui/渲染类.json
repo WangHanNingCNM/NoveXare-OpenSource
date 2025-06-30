@@ -897,6 +897,64 @@
                 },
                 {
                     "type": "Switch",
+                    "key": "MobileWaterMark",
+                    "name": "移动水印",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "TextView",
+                    "key": "mwm_text",
+                    "name": "编辑水印内容",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "mwm_speed",
+                    "format": "移动速度: %d",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 5,
+                    "min": 0,
+                    "max": 10
+                },
+                {
+                    "type": "SeekBar",
+                    "key": "mwm_size",
+                    "format": "大小: %.1f",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "value": 0.8,
+                    "min": 0.1,
+                    "max": 2.0
+                },
+                {
+                    "type": "Switch",
                     "key": "AttackParticle",
                     "name": "攻击粒子",
                     "color": "$menu_item_color",
@@ -1559,9 +1617,9 @@
                         5,
                         5
                     ],
-                    "value": 17,
-                    "min": 1,
-                    "max": 33
+                    "value": 0,
+                    "min": -20,
+                    "max": 20
                 },
                 {
                     "type": "Switch",
@@ -2590,19 +2648,6 @@
                 },
                 {
                     "type": "CheckBox",
-                    "key": "show_target_dis",
-                    "name": "最近目标距离",
-                    "color": "$menu_item_child_color",
-                    "size": 10,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
-                },
-                {
-                    "type": "CheckBox",
                     "key": "show_kill_num",
                     "name": "杀敌数",
                     "color": "$menu_item_child_color",
@@ -2653,19 +2698,6 @@
                         5
                     ],
                     "checked": true
-                },
-                {
-                    "type": "CheckBox",
-                    "key": "show_player_list",
-                    "name": "玩家数量",
-                    "color": "$menu_item_child_color",
-                    "size": 10,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
                 },
                 {
                     "type": "CheckBox",
