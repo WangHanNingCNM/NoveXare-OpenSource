@@ -22,7 +22,6 @@
     "show_dividers": false,
     "hide_fun": true,
     "hide": true,
-    "image": "背景/白天_次要.png",
     "items": [
         {
             "type": "TextView",
@@ -1130,5 +1129,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "radius": 0
 }

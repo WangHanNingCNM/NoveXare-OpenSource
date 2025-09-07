@@ -22,7 +22,6 @@
     "show_dividers": false,
     "hide_fun": true,
     "hide": true,
-    "image": "背景/白天_次要.png",
     "items": [
         {
             "type": "TextView",
@@ -77,6 +76,19 @@
                     "name": "自动补充",
                     "color": "$menu_item_color",
                     "size": 11
+                },
+                {
+                    "type": "Switch",
+                    "key": "AutoTool",
+                    "name": "自动工具",
+                    "color": "$menu_item_color",
+                    "size": 11,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
                 },
                 {
                     "type": "Switch",
@@ -1522,6 +1534,19 @@
                     ]
                 },
                 {
+                    "type": "CheckBox",
+                    "key": "hs_damage",
+                    "name": "遍历有伤害的",
+                    "color": "$menu_item_child_color",
+                    "size": 10,
+                    "padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                },
+                {
                     "type": "SeekBar",
                     "key": "hs_delay",
                     "format": "选择延迟: %d",
@@ -1536,19 +1561,6 @@
                     "value": 1,
                     "min": 1,
                     "max": 40
-                },
-                {
-                    "type": "CheckBox",
-                    "key": "hs_use",
-                    "name": "自动使用",
-                    "color": "$menu_item_child_color",
-                    "size": 10,
-                    "padding": [
-                        5,
-                        5,
-                        5,
-                        5
-                    ]
                 },
                 {
                     "type": "Switch",
@@ -1643,8 +1655,8 @@
                         5
                     ],
                     "value": -0.42,
-                    "min": -1.00,
-                    "max": 0.00
+                    "min": -1,
+                    "max": 0
                 },
                 {
                     "type": "Switch",
@@ -1963,8 +1975,8 @@
                         5
                     ],
                     "value": -0.42,
-                    "min": -1.00,
-                    "max": 0.00
+                    "min": -1,
+                    "max": 0
                 },
                 {
                     "type": "Switch",
@@ -2013,5 +2025,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "radius": 0
 }
